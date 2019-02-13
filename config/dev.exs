@@ -69,7 +69,7 @@ config :phoenix, :plug_init_mode, :runtime
 # Configure your database
 config :phoenix_example, PhoenixExample.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "mysecretpassword",
   database: "phoenix_example_dev",
   hostname: "localhost",
   pool_size: 10
